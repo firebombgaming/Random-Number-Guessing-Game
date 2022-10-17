@@ -19,7 +19,7 @@ os.system("clear")
 
 print()
 
-while - == True:
+while i == True:
 	print()
 	guess_num = float(input("Guess a number: "))
 	print()
@@ -30,7 +30,7 @@ while - == True:
 		print()
 		exit()
     if guess_num < num:
-    	print("The number is hHgher!")
+    	print("The number is Higher!")
     	time.sleep(1)
     	os.system("clear")
     if guess_num > num:
